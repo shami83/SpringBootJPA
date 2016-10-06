@@ -1,0 +1,9 @@
+package com.example.repo;
+import org.springframework.data.querydsl.QueryDslPredicateExecutor;
+import org.springframework.data.repository.CrudRepository;
+
+import com.example.person.Hobby;
+import com.example.person.Person;
+public interface HobbyRepository extends CrudRepository<Hobby,Long> {
+
+}
